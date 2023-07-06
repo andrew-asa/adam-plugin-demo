@@ -1,0 +1,24 @@
+{
+  "name": "adam-plugin-demo",
+  "pluginName": "demo",
+  "description": "demo",
+  "author": "andrew.asa",
+  "main": "dist/index.html",
+  "logo": "",
+  "version": "0.0.1",
+  "preload": "preload/index.js",
+  "pluginType": "ui",
+  "features": [
+    {
+      "code": "demo",
+      "explain": "插件样例",
+      "cmds": [
+        "domo",
+        "插件样例"
+        
+      ]
+    }
+  ],
+  "ext": {
+  }
+}

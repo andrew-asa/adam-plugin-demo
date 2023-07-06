@@ -1,0 +1,2 @@
+api = {}
+window.demo = api
