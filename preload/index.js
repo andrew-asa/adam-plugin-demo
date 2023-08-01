@@ -1,2 +1,2 @@
 api = {}
-window.demo = api
+window.doutu = api

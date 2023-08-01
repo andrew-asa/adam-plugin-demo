@@ -9,6 +9,7 @@ export function start(app: App) {
         const module = files[path];
         // @ts-ignore
         for (const key in module) {
+            // @ts-ignore
             const obj = module[key];
             if (typeof obj === "function" && obj.prototype instanceof Object) {
                 const instance = new obj();

@@ -1,24 +1,28 @@
 {
-  "name": "adam-plugin-demo",
-  "pluginName": "demo",
-  "description": "demo",
+  "name": "adam-plugin-doutu",
+  "pluginName": "斗图",
+  "description": "斗图表情搜索",
   "author": "andrew.asa",
   "main": "dist/index.html",
-  "logo": "",
-  "version": "0.0.1",
-  "preload": "preload/index.js",
+  "logo": "https://static.91jkys.com/activity/img/2adb63c2e5d54dc1b26001958fcdb044.jpg",
+  "version": "0.2.61",
+  "preload": "dist/preload/index.js",
   "pluginType": "ui",
   "features": [
     {
-      "code": "demo",
-      "explain": "插件样例",
+      "code": "dt",
+      "explain": "斗图",
       "cmds": [
-        "domo",
-        "插件样例"
-        
+        "doutu",
+        "斗图",
+        {
+          "type": "over",
+          "label": "斗图"
+        }
       ]
     }
   ],
   "ext": {
+    "isdownload": true
   }
 }

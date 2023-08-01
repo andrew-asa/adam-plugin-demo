@@ -1,10 +1,28 @@
 {
   "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
     "composite": true,
-    "skipLibCheck": true,
-    "module": "ESNext",
-    "moduleResolution": "bundler",
-    "allowSyntheticDefaultImports": true
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "outDir": "./dist",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@base": ["src/base/*"],
+      "@preload/*": ["src/preload/*"]
+    }
   },
-  "include": ["vite.config.ts"]
+
+  "include": ["src/base/**/*.ts", "src/preload/**/*.ts"]
+
+  // "exclude": [
+  //   "node_modules"
+  // ]
 }

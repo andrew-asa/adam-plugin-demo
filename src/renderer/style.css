@@ -1,0 +1,21 @@
+.padl4{
+    padding-left: 4px;
+}
+.padl6{
+    padding-left: 6px;
+}
+.padl8{
+    padding-left: 8px;
+}
+.padr4{
+    padding-right: 4px;
+}
+
+.align-items-center{
+    display: flex;
+    align-items: center;
+}
+
+.h40{
+    height: 40px;
+}
